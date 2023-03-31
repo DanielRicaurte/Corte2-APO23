@@ -1,6 +1,7 @@
 package PuntoNueve;
 
 public class Deck {
+	
 	Card[] cardArray = new Card[52];
 
 	Deck() { // constructor

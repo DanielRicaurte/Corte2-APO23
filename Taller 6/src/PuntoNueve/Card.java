@@ -1,17 +1,14 @@
 package PuntoNueve;
 
 public class Card {
+
 	String suit, name;
-	private int points;
+	int points;
 
 	Card(int n1, int n2) {
 		suit = getSuit(n1);
 		name = getName(n2);
 		points = getPoints(name);
-	}
-
-	public int getPoints() {
-		return points;
 	}
 
 	public String toString() {
@@ -46,10 +43,6 @@ public class Card {
 		if (i == 13)
 			return "King";
 		return "error";
-	}
-
-	public void setPoints(int points) {
-		this.points = points;
 	}
 
 	public int getPoints(String n) {

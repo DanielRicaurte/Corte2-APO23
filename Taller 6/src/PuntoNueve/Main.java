@@ -14,5 +14,6 @@ public class Main {
 	public static void muestra() {
 		Hand h = new Hand();
 		h.mano();
+		h.juego();
 	}
 }
